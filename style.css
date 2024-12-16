@@ -1,18 +1,20 @@
-/* Basic Style */
 .body {
   background-color: #f8f8f8;
   color: #333;
   font-family: "lato", sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header-img {
   width: 100%;
 }
+
 .header .header-link {
   font-family: "papyrus", cursive;
 }
@@ -22,11 +24,13 @@
     text-align: center;
   }
 }
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .form {
   width: 56%;
   display: inline-block;
@@ -35,19 +39,23 @@
   font-size: 18px;
   padding-left: 10px;
 }
+
 .add-wrap {
   display: flex;
   margin-top: 20px;
 }
+
 .section {
   margin: 0;
   padding: 0px;
 }
+
 .list-item,
 .edit-mode,
 .heading {
   list-style: none;
 }
+
 .form-text,
 .form-checkbox,
 .btn-add,
@@ -55,6 +63,7 @@
 .btn-remove{
   outline: none;
 }
+
 .btn-add,
 .btn-edit,
 .btn-remove {
@@ -75,7 +84,7 @@
 .btn-add {
   height: 21px;
 }
-/* Heading */
+
 .heading,
 .form-add[for="form-add"] {
   color: #333;
@@ -102,17 +111,12 @@
   color: #333;
 }
 
-/* New Task */
-.form-add[for="form-add"] {
-
-}
 #form-add {
   display: block;
   margin: 0 0 20px;
   width: 420px;
 }
 
-/* Task list */
 .list {
   margin: 0;
   padding: 0;
@@ -123,11 +127,11 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .list-item,
 .edit-mode > * {
   vertical-align: middle;
@@ -136,15 +140,7 @@
 .form-checkbox {
   margin: 0 10px;
 }
-.list-item,
-.edit-mode {
 
-
-}
-.list-item,
-.edit-mode > .form-text[type="text"] {
-
-}
 .btn-img {
   height: 2em;
   transform: rotateZ(45deg);
@@ -154,13 +150,11 @@
   transform: rotateZ(0);
 }
 
-/* Completed */
 #section-selected .form {
   text-decoration: line-through;
   color: #888;
 }
 
-/* Edit Task */
 .form-text[type=text] {
   display: none;
 }
