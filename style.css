@@ -39,13 +39,21 @@
   margin: 0;
   padding: 0px;
 }
-.list-item, .edit-mode .heading {
+.list-item,
+.edit-mode,
+.heading {
   list-style: none;
 }
-.form-text,.form-checkbox,.btn-add, .btn-edit, .btn-remove{
+.form-text,
+.form-checkbox,
+.btn-add,
+.btn-edit,
+.btn-remove{
   outline: none;
 }
-.btn-add, .btn-edit, .btn-remove {
+.btn-add,
+.btn-edit,
+.btn-remove {
   background: none;
   border: 0px;
   color: #888;
@@ -54,7 +62,9 @@
   font-family: "lato", sans-serif;
   cursor: pointer;
 }
-.btn-add, .btn-edit, .btn-remove:hover {
+.btn-add,
+.btn-edit,
+.btn-remove:hover {
   color: #3a3A3a;
 }
 /* Heading */
@@ -94,7 +104,8 @@
 }
 
 /* Task list */
-.list-item, .edit-mode {
+.list-item,
+.edit-mode {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -103,20 +114,25 @@
   justify-content: space-between;
   align-items: center;
 }
-.list-item, .edit-mode > * {
+.list-item,
+.edit-mode > * {
   vertical-align: middle;
 }
 
-.list-item, .edit-mode > .form-checkbox[type="checkbox"] {
+.list-item,
+.edit-mode > .form-checkbox[type="checkbox"] {
   margin: 0 10px;
 }
-.list-item, .edit-mode > .form-add, .form {
+.list-item,
+.edit-mode > .form-add,
+.form {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.list-item, .edit-mode > .form-text[type="text"] {
+.list-item,
+.edit-mode > .form-text[type="text"] {
   width: 226px;
 }
 .btn-img {
