@@ -18,8 +18,9 @@
 }
 
 @media (max-width:768px) {
-  .header { text-align: center;
-}
+  .header {
+    text-align: center;
+  }
 }
 .main {
   display: block;
@@ -115,7 +116,7 @@
   font-size: 18px;
   width: 226px;
 }
-.list-item, .edit-mode >    .form-text[type="text"] {
+.list-item, .edit-mode > .form-text[type="text"] {
   width: 226px
 }
 .btn-img {
