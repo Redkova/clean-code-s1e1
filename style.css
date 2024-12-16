@@ -34,6 +34,7 @@
 }
 .add-wrap {
   display: flex;
+  margin-top: 20px;
 }
 .section {
   margin: 0;
@@ -66,6 +67,10 @@
 .btn-edit,
 .btn-remove:hover {
   color: #3a3A3a;
+}
+
+.btn-add {
+  height: 21px;
 }
 /* Heading */
 .heading,
@@ -101,10 +106,15 @@
 #form-add {
   display: block;
   margin: 0 0 20px;
-  width: 318px;
+  width: 420px;
 }
 
 /* Task list */
+.list {
+  margin: 0;
+  padding: 0;
+}
+
 .list-item,
 .edit-mode {
   overflow: hidden;
