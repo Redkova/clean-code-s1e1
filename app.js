@@ -1,12 +1,3 @@
-//Document is the DOM can be accessed in the console with document.window.
-// Tree is from the top, html, body, p etc.
-
-//Problem: User interaction does not provide the correct results.
-//Solution: Add interactivity so the user can manage daily tasks.
-//Break things down into smaller steps and take each step at a time.
-
-// Event handling, user interaction is what starts the code execution.
-
 var taskInput = document.getElementById("form-add");
 var addForm = document.querySelector(".add-wrap");
 var incompleteTaskHolder = document.getElementById("section-choose");
@@ -62,6 +53,12 @@ var addTask = function(event) {
 
     taskInput.value = "";
 };
+
+taskInput.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        event.preventDefault();
+    }
+});
 
 //Edit an existing task.
 
