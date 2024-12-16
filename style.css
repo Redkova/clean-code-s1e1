@@ -31,6 +31,9 @@
   width: 56%;
   display: inline-block;
   flex-grow: 1;
+  box-sizing: border-box;
+  font-size: 18px;
+  padding-left: 10px;
 }
 .add-wrap {
   display: flex;
@@ -130,21 +133,17 @@
   vertical-align: middle;
 }
 
-.list-item,
-.edit-mode > .form-checkbox[type="checkbox"] {
+.form-checkbox {
   margin: 0 10px;
 }
 .list-item,
-.edit-mode > .form-add,
-.form {
-  padding-left: 10px;
-  box-sizing: border-box;
-  font-size: 18px;
-  width: 226px;
+.edit-mode {
+
+
 }
 .list-item,
 .edit-mode > .form-text[type="text"] {
-  width: 226px;
+
 }
 .btn-img {
   height: 2em;
@@ -168,7 +167,7 @@
 
 .edit-mode .form-text[type=text] {
   display: inline-block;
-  width: 224px;
+  width: 337px;
 }
 
 .edit-mode .form {
