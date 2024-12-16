@@ -30,7 +30,7 @@
 .form {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .add-wrap {
   display: flex;
@@ -117,7 +117,7 @@
   width: 226px;
 }
 .list-item, .edit-mode > .form-text[type="text"] {
-  width: 226px
+  width: 226px;
 }
 .btn-img {
   height: 2em;
@@ -130,18 +130,18 @@
 
 /* Completed */
 #section-selected .form {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .form-text[type=text] {
-  display: none
+  display: none;
 }
 
 .edit-mode .form-text[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .form {
