@@ -36,14 +36,14 @@
   display: flex;
 }
 .section {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .list-item, .edit-mode .heading {
-  list-style:none;
+  list-style: none;
 }
 .form-text,.form-checkbox,.btn-add, .btn-edit, .btn-remove{
-  outline:none;
+  outline: none;
 }
 .btn-add, .btn-edit, .btn-remove {
   background: none;
@@ -136,14 +136,14 @@
 
 /* Edit Task */
 .form-text[type=text] {
-  display:none
+  display: none
 }
 
 .edit-mode .form-text[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .form {
-  display:none;
+  display: none;
 }
