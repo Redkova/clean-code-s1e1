@@ -66,8 +66,8 @@
   font-family: "lato", sans-serif;
   cursor: pointer;
 }
-.btn-add,
-.btn-edit,
+.btn-add:hover,
+.btn-edit:hover,
 .btn-remove:hover {
   color: #3a3A3a;
 }
