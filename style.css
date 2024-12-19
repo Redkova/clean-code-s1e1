@@ -163,8 +163,10 @@
 }
 
 .edit-mode .form-text[type=text] {
+  width: 56%;
   display: inline-block;
-  width: 337px;
+  flex-grow: 1;
+  padding-left: 10px;
 }
 
 .edit-mode .form {
